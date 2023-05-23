@@ -8,6 +8,28 @@
     <meta name="description" content="Experienced developer in Cardiff, offering professional web development services. Check out my portfolio and contact me for your Magento 2 projects.">
     <meta name="keywords" content="Magento 2, web development, Cardiff, portfolio, projects">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.7/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn01.jotfor.ms/static/prototype.forms.js?3.3.42043" type="text/javascript"></script>
+    <script src="https://cdn02.jotfor.ms/static/jotform.forms.js?3.3.42043" type="text/javascript"></script>
+    <script src="https://cdn03.jotfor.ms/js/payments/validategateways.js?v=3.3.42043" type="text/javascript"></script>
+    <script type="text/javascript">	JotForm.newDefaultTheme = true;
+    JotForm.extendsNewTheme = false;
+    JotForm.singleProduct = false;
+    JotForm.newPaymentUIForNewCreatedForms = false;
+    JotForm.newPaymentUI = true;
+    JotForm.submitError="jumpToFirstError";
+
+    JotForm.init(function(){
+        /*INIT-START*/
+        if (window.JotForm && JotForm.accessible) $('input_1').setAttribute('tabindex',0);
+        if (window.JotForm && JotForm.accessible) $('input_2').setAttribute('tabindex',0);
+        if (window.JotForm && JotForm.accessible) $('input_3').setAttribute('tabindex',0);
+        /*INIT-END*/
+    });
+
+    JotForm.prepareCalculationsOnTheFly([null,{"name":"yourName","qid":"1","text":"Your Name","type":"control_textbox"},{"name":"yourEmail","qid":"2","text":"Your Email","type":"control_textbox"},{"name":"yourMessage","qid":"3","text":"Your Message","type":"control_textarea"},{"name":"yourName4","qid":"4","text":"Send Message","type":"control_button"}]);
+    setTimeout(function() {
+        JotForm.paymentExtrasOnTheFly([null,{"name":"yourName","qid":"1","text":"Your Name","type":"control_textbox"},{"name":"yourEmail","qid":"2","text":"Your Email","type":"control_textbox"},{"name":"yourMessage","qid":"3","text":"Your Message","type":"control_textarea"},{"name":"yourName4","qid":"4","text":"Send Message","type":"control_button"}]);}, 20);
+    </script>
 </head>
 
 <body class="bg-gray-100">
@@ -195,24 +217,40 @@
         <h2 class="text-3xl font-semibold text-gray-800 mb-8">Get in Touch</h2>
         <p class="text-gray-600 mb-8">Have a project in mind? Feel free to reach out to me by filling out the form
             below. I'll get back to you as soon as possible.</p>
-        <form action="process.php" method="POST" class="max-w-lg mx-auto text-left">
+        <form action="https://eu-submit.jotform.com/submit/231423543696358" method="post" class="max-w-lg mx-auto text-left">
             <div class="mb-4">
                 <label for="name" class="block text-gray-800 font-semibold mb-2">Your Name</label>
-                <input type="text" id="name" name="name" class="w-full border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-blue-500 focus:border-blue-500" required="">
+                <input type="text" id="name" name="q1_yourName" class="w-full border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-blue-500 focus:border-blue-500" required="">
             </div>
             <div class="mb-4">
                 <label for="email" class="block text-gray-800 font-semibold mb-2">Your Email</label>
-                <input type="email" id="email" name="email" class="w-full border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-blue-500 focus:border-blue-500" required="">
+                <input type="email" id="email" name="q2_yourEmail" class="w-full border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-blue-500 focus:border-blue-500" required="">
             </div>
             <div class="mb-4">
                 <label for="message" class="block text-gray-800 font-semibold mb-2">Your Message</label>
-                <textarea id="message" name="message" rows="4" class="w-full border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-blue-500 focus:border-blue-500" required=""></textarea>
+                <textarea id="message" name="q3_yourMessage" rows="4" class="w-full border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:ring-blue-500 focus:border-blue-500" required=""></textarea>
             </div>
             <div class="text-center">
                 <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-6 rounded-md">Send Message
                 </button>
             </div>
+            <script>
+                JotForm.showJotFormPowered = "new_footer";
+            </script>
+            <script>
+                JotForm.poweredByText = "Powered by Jotform";
+            </script>
+            <input type="hidden" class="simple_spc" id="simple_spc" name="simple_spc" value="231423543696358" />
+            <script type="text/javascript">
+                var all_spc = document.querySelectorAll("form[id='231423543696358'] .si" + "mple" + "_spc");
+                for (var i = 0; i < all_spc.length; i++)
+                {
+                    all_spc[i].value = "231423543696358-231423543696358";
+                }
+            </script>
         </form>
+        <script type="text/javascript">JotForm.ownerView=true;</script>
+        <script type="text/javascript">JotForm.forwardToEu=true;</script>
     </div>
 </section>
 
