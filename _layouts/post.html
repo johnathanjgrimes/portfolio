@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+
+<article class="bg-gray-100 py-6">
+    <div class="max-w-4xl mx-auto px-6">
+        <a href="/blog" class="block mb-6 text-gray-600 text-sm">< back</a>
+        <div class="prose">
+            <h1>{{ page.title }}</h1>
+        </div>
+
+        <div class="post-meta">
+            <div class="flex items-center my-6">
+                <img src="https://media.licdn.com/dms/image/C5603AQH60Ppely_ZVQ/profile-displayphoto-shrink_800_800/0/1573741071908?e=1690416000&v=beta&t=MMAmpOrp3pYsPjuPqcH2Nm3ad7Uj8eEiiK4u0MYrbiQ"
+                     alt="Author" class="w-16 h-16 rounded-full mr-4">
+                <div>
+                    <h2 class="text-lg font-semibold">John Grimes</h2>
+                    <p class="text-gray-600">Posted on <span><time datetime="{{ page.date }}">{{ page.date | date: "%-d %B %Y" }}</time></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="prose">
+
+            {{ content }}
+        </div>
+    </div>
+</article>
