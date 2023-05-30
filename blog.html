@@ -1,0 +1,22 @@
+---
+layout: default
+title: All Blog Posts
+---
+<div class="bg-gray-200 py-10 ">
+
+<div class="max-w-4xl mx-auto px-6">
+
+<ul class="gap-6 grid grid-cols-1 md:grid-cols-1">
+    {% for post in site.posts %}
+    <li class="bg-white rounded-lg shadow-md">
+        <a href="{{ post.url | prepend: site.baseurl }}">
+            <div class="p-6">
+                <h2 class="font-bold mb-4 text-2xl">{{ post.title }}</h2>
+                {{ post.content | markdownify | strip_html | truncatewords: 20 }}
+            </div>
+        </a>
+    </li>
+    {% endfor %}
+</ul>
+</div>
+</div>
