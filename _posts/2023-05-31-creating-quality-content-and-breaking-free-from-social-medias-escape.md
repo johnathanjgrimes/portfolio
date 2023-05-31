@@ -2,11 +2,9 @@
 layout: post
 title:  "Creating Quality Content and Breaking Free from Social Media's Escape"
 date:   2023-05-31
-image: https://marketplace.canva.com/MADmjAnOlsw/1/screen_2x/canva-untitled-MADmjAnOlsw.jpg 1600w, https://marketplace.canva.com/MADmjAnOlsw/1/screen/canva-untitled-MADmjAnOlsw.jpg 800w, https://marketplace.canva.com/MADmjAnOlsw/1/thumbnail_large/canva-untitled-MADmjAnOlsw.jpg 550w, https://marketplace.canva.com/MADmjAnOlsw/1/thumbnail/canva-untitled-MADmjAnOlsw.jpg
+image: "/images/posts/creating-quality-content-and-breaking-free-from-social-medias-escape.jpg"
 
 ---
-
-# Title: Creating Quality Content and Breaking Free from Social Media's Escape
 
 ## Introduction:
 In today's digital age, creating quality content has become an essential aspect of engaging with audiences and building a successful online presence. Simultaneously, social media platforms have grown into ubiquitous channels that offer an enticing escape from our daily lives. In this blog post, we will explore the importance of providing quality content while examining the role of social media as both a means of connection and an escape from reality. By striking a balance and prioritizing quality content creation, we can harness the benefits of social media while maintaining a healthy relationship with it.
