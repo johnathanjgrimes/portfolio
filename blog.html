@@ -10,6 +10,9 @@ title: All Blog Posts
             {% for post in site.posts %}
             <li class="bg-white rounded-lg shadow-md">
                 <a href="{{ post.url | prepend: site.baseurl }}">
+                    {% if post.image %}
+                    <img src="{{ post.image }}" class="rounded-t" alt="{{ page.title }}">
+                    {% endif %}
                     <div class="p-6">
                         <h2 class="font-bold mb-4 text-2xl">{{ post.title }}</h2>
                         {{ post.content | markdownify | strip_html | truncatewords: 20 }}

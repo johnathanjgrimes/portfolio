@@ -23,7 +23,9 @@ layout: default
             </div>
         </div>
         <div class="prose">
-
+            {% if page.image %}
+                <img src="{{ page.image }}" alt="{{ page.title }}">
+            {% endif %}
             {{ content }}
         </div>
     </div>
