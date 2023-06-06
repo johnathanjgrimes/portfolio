@@ -40,9 +40,6 @@ sitemap:
       {% else %}
         <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
       {% endif %}
-       {% if page.page-type == blog %}
-          <changefreq>daily</changefreq>
-       {% else %}
       {% if page.sitemap.changefreq %}
         <changefreq>{{ page.sitemap.changefreq }}</changefreq>
       {% else %}
