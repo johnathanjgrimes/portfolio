@@ -30,3 +30,31 @@ layout: default
         </div>
     </div>
 </article>
+
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "mainEntityOfPage": {
+          "@type": "WebPage",
+          "@id": "{{ page.url }}"
+        },
+        "headline": "{{ page.title }}",
+        "description": "{{ content | markdownify | strip_html | truncatewords: 20 }}",
+        "image": "{{ page.image }}",  
+        "author": {
+          "@type": "Person",
+          "name": "John Grimes"
+        },  
+        "publisher": {
+          "@type": "Organization",
+          "name": "",
+          "logo": {
+            "@type": "ImageObject",
+            "url": ""
+          }
+        },
+        "datePublished": "{{ page.date |
+            date: "%-d %B %Y" }}"
+      }
+</script>
