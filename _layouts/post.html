@@ -37,11 +37,11 @@ layout: default
         "@type": "BlogPosting",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "{{ page.url }}"
+          "@id": "{{ site.url }}{{ page.url }}"
         },
         "headline": "{{ page.title }}",
         "description": "{{ content | markdownify | strip_html | truncatewords: 20 }}",
-        "image": "{{ page.image }}",  
+        "image": "{{ site.url }}{{ page.image }}",  
         "author": {
           "@type": "Person",
           "name": "John Grimes"
