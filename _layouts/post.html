@@ -35,9 +35,10 @@ layout: default
     {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
+        "url": "{{ site.url }}{{ page.url }}",
         "mainEntityOfPage": {
           "@type": "WebPage",
-          "@id": "{{ site.url }}{{ page.url }}"
+          "@id": "https://google.com/article"
         },
         "headline": "{{ page.title }}",
         "description": "{{ content | markdownify | strip_html | truncatewords: 20 }}",
