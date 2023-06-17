@@ -29,5 +29,7 @@ Deploying Magento 2 projects is no walk in the park. The intricacies and depende
 One of the standout features of Deployer is its support for rollbacks. In case something goes wrong during the deployment, I can easily revert to a previous version with just a few commands. This provides an added layer of safety and confidence, especially when dealing with critical production environments.
 
 ## Conclusion
-By embracing Continuous Integration and Deployment through GitHub Actions, I've revolutionized my website deployment process. The automation provided by GitHub Actions has saved me time and spared me the headache of manual deployments. And with my
+By embracing Continuous Integration and Deployment through GitHub Actions, I've revolutionized my website deployment process. The automation provided by GitHub Actions has saved me time and spared me the headache of manual deployments. And with my ongoing exploration of Deployer, I'm finding ways to streamline and simplify the deployment of complex Magento 2 projects. It's an exciting journey that keeps me at the forefront of CI/CD innovation. Stay tuned for more updates on my CI/CD adventures!
+
+**Disclaimer**: Keep in mind that achieving zero downtime deploys for complex projects is a challenging task. While Deployer helps streamline the process, some downtime might still be expected during deployments. Nonetheless, I'm continuously exploring and refining my deployment strategies to minimize disruptions as much as possible.
 
