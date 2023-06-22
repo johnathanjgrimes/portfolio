@@ -41,9 +41,17 @@
     </title>
     <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
     <link rel="icon" type="image/png" href="/images/favicon.png">
+    {%- if page.layout == 'home' -%}
     <meta name="description"
         content="Experienced developer in Cardiff, offering professional web development services. Check out my portfolio and contact me for your web development projects.">
-    <meta name="keywords" content="Web development, Cardiff, portfolio, projects">
+    {%- endif -%}
+
+    {%- if page.layout == 'post' -%}
+    <meta name="description"
+    content="{{ page.content | markdownify | strip_html | truncatewords: 20 }}">
+    {%- endif -%}
+    
+        <meta name="keywords" content="Web development, Cardiff, portfolio, projects">
 
 
     {%- if page.image -%}
