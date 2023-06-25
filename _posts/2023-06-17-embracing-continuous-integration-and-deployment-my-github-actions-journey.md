@@ -2,7 +2,7 @@
 layout: post
 title:  "Embracing Continuous Integration and Deployment: My GitHub Actions Journey!"
 date:   2023-06-17
-image: "/images/posts/12-top-tips-for-finding-a-reliable-web-developer.jpg"
+image: "/images/posts/github-actions.jpg"
 
 ---
 

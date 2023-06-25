@@ -2,7 +2,7 @@
 layout: post
 title:  "12 Top Tips for Finding a Reliable Web Developer"
 date:   2023-06-25
-image: "/images/posts/github-actions.jpg"
+image: "/images/posts/12-top-tips-for-finding-a-reliable-web-developer.jpg"
 
 ---
 
