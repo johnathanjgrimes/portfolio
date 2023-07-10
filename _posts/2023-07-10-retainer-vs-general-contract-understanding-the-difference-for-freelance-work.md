@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "12 Top Tips for Finding a Reliable Web Developer"
+title:  "Retainer vs. General Contract: Understanding the Difference for Freelance Work"
 date:   2023-06-25
 image: "/images/posts/retainer-vs-general-contract-understanding-the-difference-for-freelance-work.jpg"
 
